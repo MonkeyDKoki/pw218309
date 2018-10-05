@@ -1,0 +1,34 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+}
+#granthams{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#paint{
+	float:right;
+}
+header input{
+	float: right;
+	margin-right:-200px;
+	margin-top: 15px;
+	position: relative;
+}
+header nav ul li {
+	display: inline-block;
+	color: gray;
+	font-size: 1.8em;
+	margin-right: 15px;
+	border-bottom: 1px solid gray;
+	/*text-decoration: underline;*/
+	padding-bottom: 2px;
+}
+header nav{
+	/*text-align: center;*/
+	margin-left: 220px;
+	
+}
