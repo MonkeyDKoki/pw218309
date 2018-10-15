@@ -2,98 +2,153 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*Es requerimiento del cliente*/
-	max-width: 1078px;
-	min-height: 1078px;
-}
-#bgoffer{
-	left: -35px;
-	position: relative;
-	top: -410px;
-}
-#granthams{
-	margin-left: 25px;
-	margin-top: 25px;
-}
-#paint{
-	float:right;
+	max-width: 1360px;
 }
 #seccionmain{
 	margin-top: 10px;
-	background-color: black;
+	background-color:rgb(43,43,43);
+	width: 100%;
 }
 header input{
 	float: left;
-	margin-left: 60px;
-	margin-right: 20px;
+	margin-left: 135px;
+	margin-right:0px;
 	margin-top: 5px;
-	/*margin-right:-200px;*/
-	/*margin-top: 15px;*/
-	/*position: relative;*/
-	width: 25%;
+	width: 12%;
+	height: 30px ;
 }
 header img{
 	margin-top: 5px;
-	width: 60%;
-	margin-left: 40px;
+	width: 69%;
+	margin-left: 100px;
 }
-/*header nav ul li {
+#seccionmain #secc01 img{
+	margin-top: 15px;
+	width: 80%;
+}
+#seccionmain #secc01 ul{
+	list-style: none;
+}
+#seccionmain #secc01 ul li{
+	margin-bottom: 7px;
+	margin-left: 50px;
+}
+#secc01{
+	/*margin-left: 30px;*/
 	display: inline-block;
-	color: gray;
-	font-size: 1.8em;
-	margin-right: 15px;
-	border-bottom: 1px solid gray;
-	text-decoration: underline;
-	padding-bottom: 2px;
-}
-header nav{
-	text-align: center;
-	margin-left: 220px;
+	height: 350px;
 	
 }
-#primerseccion{
-	border: 1px solid red;
-	height: 318px;
-	margin-top: 60px;
+#secc02 {
+	width: 70%;
+	float: right;
+	height: 350px;
 }
-#primerseccion article{
-	display: inline-block;
-	border: 1px solid blue;
+#secc02 article{
+	height: 300px;
 	vertical-align: top;
-}*/
-#secc01art01{
-	/*margin-left: 30px;*/
-	width: 22%;
+	margin-top: 20px;
+	margin-left:-4px;
+	width: 24%;
+	display: inline-block;	
+	position: relative;
+	padding-left: 5px;
+	
 }
-#secc01art02{
-	background-color: green;
-	width: 18%;
+#secc03 {
+	padding-top: 30px;
+	/*padding-left: 80px;*/
+	border-top: solid 1px  rgb(68, 68, 68); 
 }
-#secc01art03{
-	background-color: gray;
-	width: 18%;
+#secc03 article
+{
+	width:25%;
+	margin-left: 100px;
+	display: inline-block;
 }
-#secc01art04{
-	background-color: red;
-	width: 18%;
+#secc03 article img{
+	opacity: 0.8;
+	width:100%;
 }
-#secc01art05{
-	background-color: blue;
-	width: 18%;
+#secc04{
+	padding-left: 10px;
+}
+#secc04 article
+{
+	width: 25%;
+	vertical-align: top;
+	margin-top:20px;
+	margin-left:29px;
+	margin-right: 29px;
+	padding-left: 50px;
+	padding-top:10px;
+	border-top	:  1px dashed white;
+	display: inline-block;
+}
+
+#caja{
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	opacity:0.2;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	margin: 0px;
+}
+p{
+	margin-block-start:0em;
+	margin-block-end: 0.3em;
+}
+.colorverde{
+	background-color: rgb(180,208,82);
+}
+.colorgris{
+	background-color: rgb(84,84,84);
+}
+.colorrojo{
+	background-color: rgb(212,45,63);
+}
+.colorgrisclaro{
+	background-color: rgb(228,228,228);
 }
 .letrablanca{
 	color:white;
 }
 .letragris{
-	color:#c3c3c3;
+	color:rgb(141,141,141);
+}
+.letragrisclaro{
+	color:rgb(170, 170, 170);
+}
+.letragrismenosclaro{
+	color:rgb(91,91,91);
+}
+.letraazul{
+	color:rgb(74,110,130);
 }
 .letragrande{
-	font-size: 2.5em;/*3.5*16*/
-}
-.letramediana{
-	font-size: 1.5em;
+	font-size: 2em;
 }
 .nito{
 	font-weight: bold; /*negritas*/
+}
+.moreon{
+	font-size: 1.1em;
+	color:white;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+}
+.readmore{
+	float: right;
+	color: white;
+	display: block;
+	margin-top: 25px;
+	margin-bottom:25px;
 }
 
 
