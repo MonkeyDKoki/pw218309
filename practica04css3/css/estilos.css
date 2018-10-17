@@ -1,0 +1,18 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1360px;
+}
+#logofirstbike{
+	margin-top:20px;
+	margin-left: 10px;
+	position: relative;
+	display: inline-block;
+}
+.logos{
+	vertical-align: top;
+	float: right;
+	margin-left: 5px;
+	position: relative;
+}
