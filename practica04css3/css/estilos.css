@@ -2,7 +2,7 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*Es requerimiento del cliente*/
-	max-width: 1360px;
+	max-width: 1024px;
 }
 #logofirstbike{
 	margin-top:40px;
@@ -31,8 +31,8 @@ header nav ul li {
 	display: inline-block;
 	color: black;
 	font-size: 1.2em;
-	margin-right: 30px;
-	/*text-decoration: underline;*/
+	margin-right: 20px;
+
 }
 header nav{
 	margin-top: 40px;
@@ -41,18 +41,50 @@ header nav{
 #secc01{
 	width: 100%;
 	display: inline-block;
+	height: 550px;
 }
 #secc01secc01{
 	vertical-align: top;
-	width: 55%;
+	width: 60%;
 	display: inline-block;
+}
+#secc01secc01art01{
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px dashed black;
+}
+#secc01secc01art02{
+	color: rgb(129,129,129);
+	font-size: 1.15em;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+#video01{
+	margin-top: 30px;
+	margin-left:0px;
+	width: 48%;
+}
+#video02{
+	margin-top: 30px;
+	margin-right:0px;
+	width: 48%;
+	float: right;
 }
 #secc01secc02{
-	width: 40%;
-	display: inline-block;
+	display:inline-block;
+	width: 30%;
 }
 
+#bike{
+	width: 140%;
+}
+#garantia{
+	position: relative;
+	top:-110px;
 
+}
 #imggotoshop{
 	margin-top: 20px;
 	margin-left:100px;
@@ -60,6 +92,37 @@ header nav{
 #imgbuy{
 	margin-top: -15px;
 	margin-left: 20px;
+}
+footer {
+	margin-top: -70px;
+}
+#secc02secc01art01{
+	display: inline-block;
+}
+#copyright{
+	vertical-align: top;
+	font-size: 1.2em;
+}
+#secc02secc02{
+	width: 100%;
+	display:inline-block;
+}
+#secc02secc02 article{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 53px;
+	vertical-align: top;
+	display: inline-block;
+}
+#secc02secc02 article ul{
+	border-top: 1px solid #a1a1a1;
+	margin-top:5px;
+	padding-top: 5px;
+	padding-left: 0px;
+}
+#secc02secc02 article ul li{
+	font-size: 0.9em;
+	list-style: none;
 }
 .logos{
 	vertical-align: top;
@@ -70,9 +133,16 @@ header nav{
 .letragrande{
 	font-size:4em;
 }
+
 .letraverde{
 	color: #73f33e;
 }
 .nito{
 	font-weight: bold;
+}
+.letragrisfuerte{
+	color: #434343;
+}
+.letragrisclaro{
+	color:#a1a1a1;
 }
