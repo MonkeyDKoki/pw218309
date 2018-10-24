@@ -68,3 +68,19 @@ h2 ~ p{
 section:not(#referencias){
 	color: blue;
 }
+li:nth-child(odd){/*Impar*/
+	color: green;
+}
+li:nth-child(even){/*Par*/
+	color: blue;
+}
+li:nth-child(5){/*Quinto elemento*/
+	color: red;
+}
+li:nth-last-child(1){/*Impar*/
+	color: purple;
+}
+p:first-line{
+	font-weight: bold;
+	color: red;
+}
