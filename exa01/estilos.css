@@ -1,0 +1,142 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+}
+header{
+	background: #3a3a3a;
+}
+#sitepoint{
+	display:inline-block;
+	vertical-align: top;
+	margin:10px;
+	margin-right:190px;
+	margin-left: 30px;
+}
+#botonlogin{
+	border-radius: 2px;
+	border:solid white 1px;
+	background:#3a3a3a;
+	color: white;
+	width: 80px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#botonlogout{
+	border-radius: 2px;
+	width: 80px;
+	height: 30px;
+	background:#3ec9cc;
+	color: white;
+}
+#secc01{
+	width: 100%;
+	display: inline-block;
+	background: #e62b85;
+}
+#secc01art01{
+	margin-left: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color:white;
+	font-size: 1.7em;
+	font-weight: bold;
+	display: inline-block;
+}
+#secc01art02{
+	margin-top: 15px;
+	margin-left: 60px;
+	display: inline-block;
+}
+#secc01art03{
+	margin-bottom: 20px;
+	margin-left: 80px;
+	display: inline-block;
+}
+#secc01art03 input{
+	background: white;
+	color: #e7308a;
+	width: 250px;
+	height: 35px;
+	font-weight: bold;
+	font-size: 1.4;
+	border-radius: 2px;
+	padding: 10px;
+}
+#secc02{
+	background: #262626;
+	width: 100%;
+	background-image: url("img/fondo.png");
+}
+#secc02art01{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
+	width: 50%;
+}
+#secc02art01 input{
+	width: 250px;
+	height: 60px;
+	background: #3ec9cc;
+	color:white;
+	font-size: 1.1em;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#secc02art02{
+	margin-top: 40px;
+	width: 40%;
+	vertical-align: bottom;
+	display: inline-block;
+}
+#secc02art02 img{
+	width:90%;
+	margin-bottom: 40px;
+}
+footer{
+	padding-top: 20px;
+	padding-left: 10px;
+	background: #ef8d25;
+	padding-bottom: 30px;
+}
+.letramediana{
+	font-size: 1.05em;
+}
+.letragrande{
+	font-size: 1.4em;
+}
+.letrasupergrande{
+	font-size: 2.4em;
+}
+.letrablanca{
+	color: white;
+}
+.letranaranja{
+	color:#ebb686;
+}
+.nito{
+	font-weight:bold;
+}
+.logosheader{
+	display:inline-block;
+	vertical-align: top;
+	margin-top:10px;
+	margin-bottom: 10px;
+
+}
+
+.letraheader{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 10px;
+	color: white;
+	font-size: 0.8em;
+
+}
