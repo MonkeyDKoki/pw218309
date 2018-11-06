@@ -12,6 +12,15 @@ window.onload= function(){
 	operando1.addEventListener("focus",colorAmarillo);
 	operando1.addEventListener("focusout",colorBlanco);
 
+	var operando2=document.getElementById("operando2");
+	operando2.addEventListener("focus",colorAmarillo);
+	operando2.addEventListener("focusout",colorBlanco);
+
+	var resultado=document.getElementById("resultado");
+	resultado.addEventListener("focus",colorAmarillo);
+	resultado.addEventListener("focusout",colorBlanco);
+
+
 	var numeros=function(){
 		var valor=this.value;
 		if(operador==""){//operando1
@@ -28,6 +37,24 @@ window.onload= function(){
 			}
 			document.getElementById("operando2").value+=valor;
 		}
+	}
+
+	var operadores = function(){
+		operador = this.value;
+
+	}
+
+	var resultadoIgual = function(){
+		var oper1=document.getElementById("operando1").value;
+		var oper2=document.getElementById("operando2").value;
+		document.getElementById("resultado").value=eval(oper1+operador+oper2);
+	}
+
+	var reinicio = function(){
+		operando1.value="0";
+		operando2.value="0";
+		operador="";
+		resultado.value="0";
 	}
 	var cero=document.getElementById("cero");
 	cero.addEventListener("click",numeros);
@@ -49,4 +76,22 @@ window.onload= function(){
 	ocho.addEventListener("click",numeros);
 	var nueve=document.getElementById("nueve");
 	nueve.addEventListener("click",numeros);
+
+	var suma=document.getElementById("suma");
+	suma.addEventListener("click",operadores);
+	var resta=document.getElementById("resta");
+	resta.addEventListener("click",operadores);
+	var multiplicacion=document.getElementById("multiplicacion");
+	multiplicacion.addEventListener("click",operadores);
+	var division=document.getElementById("division");
+	division.addEventListener("click",operadores);
+
+	var igual=document.getElementById("igual");
+	igual.addEventListener("click",resultadoIgual);
+
+	var reiniciar=document.getElementById("reiniciar");
+	reiniciar.addEventListener("click",reinicio);
+
+
+
 }
